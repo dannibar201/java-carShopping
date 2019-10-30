@@ -16,6 +16,13 @@ public class CarShopping {
         totalCost += base();
         totalCost += automaticWindows();
         totalCost += keylessEntry();
+        totalCost += onStar();
+        totalCost += antiLock();
+        totalCost += wheelPedal();
+        totalCost += sunRoof();
+        totalCost += coldweatherPackage();
+        totalCost += navigationSystem();
+        totalCost += LEDLights();
         
         
 
@@ -68,5 +75,120 @@ return 1000;
 return 0;
 }
 }
+
+
+    public static int onStar()
+{
+System.out.print("OnStar System for 1000$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 1000;
+} else {
+return 0;
+}
+}
+
+
+    public static int antiLock()
+{
+System.out.print("Anti-lock Brakes(ABS) for 500$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 500;
+} else {
+return 0;
+}
+}
+
+
+    public static int wheelPedal()
+{
+System.out.print("Telescoping steering wheel/adjustable pedals for 1000$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 1000;
+} else {
+return 0;
+}
+}
+
+
+    public static int sunRoof()
+{
+System.out.print("Sunroof for 800$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 800;
+} else {
+return 0;
+}
+}
+
+    public static int coldweatherPackage()
+{
+System.out.print("Do you want the Cold Weather Package for 1500$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 1000;
+} else {
+return 0;
+}
+}
+
+    public static int navigationSystem()
+{
+System.out.print("GPS navigation system for 750$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 750;
+} else {
+return 0;
+}
+}
+
+    public static int LEDLights()
+{
+System.out.print("LED lights for 250$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 250;
+} else {
+return 0;
+}
+}
+
+
+public static int nitrosFuel()
+{
+System.out.print("Extreme Plus Pro Nitros Octane Fuel pack for 7500$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 7500;
+} else {
+return 0;
+}
+}
+
+    public static int aluminumRims()
+{
+System.out.print("Aluminum black rims for 600$? (y/n) > ");
+String feature = kb.nextLine();
+
+if (feature.equals("y")){
+return 250;
+} else {
+return 0;
+}
+}
+}
+
 
 
